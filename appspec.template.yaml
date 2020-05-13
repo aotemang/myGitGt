@@ -3,7 +3,7 @@ Resources:
   - test: # Replace "MyFunction" with the name of your Lambda function
       Type: AWS::Lambda::Function
       Properties:
-        Name: "test" # Specify the name of your Lambda function
+        Name: "test1" # Specify the name of your Lambda function
         Alias: "beta" # Specify the alias for your Lambda function
         CurrentVersion: "{{CurrentVersion}}" # Specify the current version of your Lambda function
         TargetVersion: "{{TargetVersion}}" # Specify the version of your Lambda function to deploy
